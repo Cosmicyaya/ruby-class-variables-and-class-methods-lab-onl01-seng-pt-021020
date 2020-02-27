@@ -3,7 +3,7 @@ class Song
 
   @@count = 30
   @@genres = ["Rap","Pop"]
-  @@artists = []
+  @@artists = ["Jay-z","Drake","Beyonce"]
 
   def initialize(song_name, artist, genre)
     @name = song_name
